@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: proper-api-response
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/api-response-db
+    username: postgres
+    password: Gulbarga@321
+  jpa:
+    hibernate:
+      ddl-auto: update
